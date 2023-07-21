@@ -1,5 +1,5 @@
 # Wowki Simulations
-  My collections works for Wokwi...
+  C3mBus Wokwi-custom-board works with Wokwi...
 <br>
 
 ### C3mBusMini Blink LED 
