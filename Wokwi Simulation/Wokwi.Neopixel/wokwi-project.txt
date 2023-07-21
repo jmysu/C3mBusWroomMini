@@ -1,0 +1,3 @@
+Simulate this project on https://wokwi.com
+Remember "Load custom board file" in code editor using "F1"
+Use Library Manager to load Adafruit Neopixel library before simulation.
