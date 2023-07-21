@@ -7,3 +7,6 @@
 
 ### C3mBusMini Blink LED 2.2.1
  <img src="WokwiC3mBusBlink2.2.1.gif">
+
+### C3mBusMini LED+Neopixel
+ <img src="WokwiC3mBusMiniNeo3.gif">
