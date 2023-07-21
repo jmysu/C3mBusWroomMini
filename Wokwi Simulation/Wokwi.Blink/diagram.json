@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "author": "Jimmy Su",
+  "editor": "wokwi",
+  "parts": [ { "type": "wokwi-custom-board", "id": "c3mBusMini", "top": 0, "left": 0, "attrs": {} } ],
+  "connections": [ 
+    [ "c3mBusMini:TX21", "$serialMonitor:RX", "", [] ], 
+    [ "c3mBusMini:RX20", "$serialMonitor:TX", "", [] ] ],
+  "dependencies": {}
+}
