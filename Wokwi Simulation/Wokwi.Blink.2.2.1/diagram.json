@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Jimmy Su",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-custom-board", "id": "c3mBusMini", "top": -3.34, "left": -5.35, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 34.94,
+      "left": 214.47,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 29.59,
+      "left": -130.2,
+      "attrs": { "color": "green", "flip": "1" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 74.22,
+      "left": -78.67,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 70.88,
+      "left": 147.33,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "c3mBusMini:TX21", "$serialMonitor:RX", "", [] ],
+    [ "c3mBusMini:RX20", "$serialMonitor:TX", "", [] ],
+    [ "r1:2", "c3mBusMini:AD0", "green", [ "v0" ] ],
+    [ "c3mBusMini:1", "r2:1", "green", [ "h0" ] ],
+    [ "r2:2", "led1:C", "green", [ "v0.04", "h18.7" ] ],
+    [ "r1:1", "led2:C", "green", [ "v0" ] ],
+    [ "led2:A", "c3mBusMini:3V3", "red", [ "v0" ] ],
+    [ "led1:A", "c3mBusMini:5V", "red", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
