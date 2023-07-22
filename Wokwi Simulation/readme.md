@@ -16,4 +16,8 @@ LED+Neopixel RGB simulation.<br>
 
 ### C3mBusMini I2C OLED
 I2C OLED simulation.<br>
- <img src="WokwiC3mBusMiniOLED.png">
+ <img src="WokwiC3mBusMiniOLED.png" width=50%>
+
+### C3mBusMini Servo+Buzzer
+Servo+Buzzer simulation.<br>
+ <img src="WokwiC3mBusMiniServoBz.gif" width=50%>
