@@ -13,3 +13,7 @@ LED blinking 2+2+1.<br>
 ### C3mBusMini LED+Neopixel
 LED+Neopixel RGB simulation.<br>
  <img src="WokwiC3mBusMiniNeo3.gif">
+
+### C3mBusMini I2C OLED
+I2C OLED simulation.<br>
+ <img src="WokwiC3mBusMiniOLED.png">
